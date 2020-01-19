@@ -1,0 +1,28 @@
+
+/*======== font-family : Sofia========= */
+@font-face{
+    font-family: Sofia;
+    src: url('./Sofia/Sofia-Regular.ttf');
+}
+
+/*======== font-family : Lato========= */
+@font-face{
+    font-family: Lato;
+    src: url('./Lato/Lato-BoldItalic.ttf');
+}
+
+/*======== font-family :Roboto========= */
+@font-face{
+    font-family: Roboto;
+    src: url('./Roboto/Roboto-LightItalic.ttf');
+}
+/*======== font-family :Gugi========= */
+@font-face{
+    font-family: Gugi;
+    src: url('./Gugi/Gugi-Regular.ttf');
+}
+/*======== font-family :Anton========= */
+@font-face{
+    font-family:Anton;
+    src: url('./Anton/Anton-Regular.ttf');
+}

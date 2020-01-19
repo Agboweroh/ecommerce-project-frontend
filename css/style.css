@@ -1,0 +1,155 @@
+@import url('../css/font.css');
+
+
+:root{
+/* theme-font --- customized */
+--Anton:'Anton' ,cursive;
+--Lato:'Lato',cursive;
+--Sofia:'Sofia', cursive;
+--Gugi:'Gugi', cursive;
+--Roboto: 'Roboto',cursive;
+
+--primary-color:#45ccb8;
+--border : #2b303218;
+--light-gray:#2b3032a1;
+--text-color:#ff686b;
+
+}
+.primary-color{
+    color:var(--primary-color);
+}
+.bg-primary-color{
+    background-color: var(--primary-color); 
+}
+.text-color{
+    color: var(--text-color);
+}
+.font-roboto{
+font-family: var(--Roboto);
+}
+.lightblue{
+    color: lightblue;
+}
+
+/* Header styling */
+header{
+    background-color: var(--primary-color);
+    font-family: var(--Roboto);
+}
+header .site-title{
+    font-family: var(--Gugi);
+}
+.container .dropdown-toggle,.container .dropdown-item{
+    font-size: 0.7rem;
+}
+.header-links a{
+font-size: 0.9rem;
+text-decoration: none;
+color: whitesmoke;
+}
+/*==================== Navigation menu ==========================*/
+
+.navbar-nav{
+    padding: 0.8rem 0rem;
+
+}
+.navbar-nav .nav-link{
+font-size: 0.9rem;
+color: var(--light-gray)!important;
+
+}
+.navbar-nav .nav-item .nav-link{
+padding: 0rem 1.3rem;
+
+}
+.navbar-nav .basket-icon{
+    margin-right: 6.5rem!important;
+  padding-left: 2rem;
+
+
+}
+
+.site-slidder{
+    position: relative;
+
+}
+.position-top{
+    position: absolute;
+    top: 45%;
+}
+.site-slidder .slidder-btn .prev,
+.site-slidder .slidder-btn .next{
+    background-color: var(--primary-color);
+    padding: 1rem 1.5rem;
+    border-radius: 10rem;
+    color: aliceblue;
+    margin: 0 1rem;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+.right-0{
+    right: 0%;
+}
+
+.site-slidder:hover .slidder-btn .prev,
+.site-slidder:hover .slidder-btn .next{
+    opacity: 1;
+}
+
+.slick-dots{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding:1rem 0;
+    list-style-type: none;
+    position: absolute;
+    bottom: 0%;
+    right: 50%;
+}
+.slick-dots li{
+    margin:0 0.6rem;
+
+}
+.slick-dots button{
+    padding: 0;
+    display: block;
+    background-color: whitesmoke;
+    text-indent: -99999px;
+    height: 0.5rem;
+    width: 0.5rem;
+    border: none;
+    border-radius: 100%;
+}
+.slick-dots li.slick-active button{
+    transform: scale(2.5);
+    box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.205);
+}
+
+/*Second slidder  */
+
+.site-slidder-two{
+    position: relative;
+    height: 30%;
+}
+
+.site-slidder-two .products{
+    position: relative;
+    height: 25rem;
+    overflow: hidden;
+
+}
+.site-slidder-two .products img{
+    width: 90%;
+    margin: auto;
+}
+.site-btn.btn-span{
+    padding: 0.8rem 1.9rem;
+    border-radius: 4rem;
+    border: 1px solid var(--border);
+    background-color:white;
+    color: var(--light-gray);
+}
+
+.slidder-two .slick-track .product:hover span{
+    background-color: var(--primary-color);
+}
